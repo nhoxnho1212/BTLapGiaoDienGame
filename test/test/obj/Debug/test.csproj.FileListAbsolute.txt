@@ -18,3 +18,13 @@ C:\Users\Thanh Tung\Desktop\BT_Game_Cshape\test\test\obj\Debug\test.csproj.Gener
 C:\Users\Thanh Tung\Desktop\BT_Game_Cshape\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
 C:\Users\Thanh Tung\Desktop\BT_Game_Cshape\test\test\obj\Debug\test.exe
 C:\Users\Thanh Tung\Desktop\BT_Game_Cshape\test\test\obj\Debug\test.pdb
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\bin\Debug\test.exe.config
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\bin\Debug\test.exe
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\bin\Debug\test.pdb
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.Form1.resources
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.exe
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.pdb

@@ -22,7 +22,7 @@ namespace test
 
         //make timer jumping
         Timer timeJump = new Timer();
-        int maxDistance = IMG_LOCATION.Y - 150;
+        int maxDistance = IMG_LOCATION.Y - 200;
         Point tmplocationOfHumanWhenJump = IMG_LOCATION;
         bool isEndOfJumpDown = false;
         bool isFinishJump = true;
@@ -40,8 +40,8 @@ namespace test
         {
             human.Height = IMG_HEIGHT;
             human.Width = IMG_WIDTH;
-            human.BackgroundImage = img;
-            human.BackgroundImageLayout = ImageLayout.Stretch;
+            human.Image = img;
+            human.SizeMode = PictureBoxSizeMode.StretchImage;
             human.Location = IMG_LOCATION;
 
             human.BackColor = Color.Transparent;

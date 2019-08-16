@@ -24,10 +24,10 @@ namespace test
         {
             ob.Width = IMG_WIDTH;
             ob.Height = IMG_HEIGHT;
-            ob.BackgroundImage=img;
+            ob.Image=img;
             ob.Top = IMG_TOP;
             ob.Left =ClientRect.Width;
-            ob.BackgroundImageLayout = ImageLayout.Stretch;
+            ob.SizeMode=PictureBoxSizeMode.StretchImage;
             ob.BackColor = Color.Transparent;
             ob.Visible = true;
             ob.Name = "stone";
@@ -35,6 +35,22 @@ namespace test
             
         }
 
+        public void setImg(Image image)
+        {
+            obs.Image = image;
+        }
+        public void SetDefaultProperty()
+        {
+            obs.Left = ClientRect.Width;
+        }
+        public void SetProperty(int width,int height,int top,Image image,String name)
+        {
+            this.obs.Width = width;
+            obs.Height = height;
+            obs.Image = image;
+            obs.Name = name;
+            obs.Top = top;
+        }
         public Obstacles(Control.ControlCollection formControl,Image img,Rectangle ClientRect)
         {
             this.ClientRect = ClientRect;
@@ -66,6 +82,12 @@ namespace test
                                     && ((this.obs.Top + this.obs.Height) >= picBoxObject.Top);
 
             return isInObjectVector && isInObjectHorizon;
+        }
+        public bool isOutofForm()
+        {
+            if (obs.Right < 0) return true;
+            if (obs.Left > ClientRect.Width) return true;
+            return false;
         }
     }
 }
