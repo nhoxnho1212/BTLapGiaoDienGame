@@ -15,7 +15,7 @@ namespace test
         private const int IMG_WIDTH=80;
         private const int IMG_HEIGHT = 40;
         private const int IMG_TOP = 320;
-        private const int DISTANCE = 5;
+        private const int DISTANCE = 10;
         private Rectangle ClientRect;
         private PictureBox obs;
         private Control.ControlCollection formControl;
@@ -37,7 +37,7 @@ namespace test
 
         public void setImg(Image image)
         {
-            obs.Image = image;
+            SetObstaclesProperty(obs, image);
         }
         public void SetDefaultProperty()
         {

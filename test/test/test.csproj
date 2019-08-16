@@ -88,5 +88,23 @@
   <ItemGroup>
     <None Include="Resources\bird.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68751574_1359923060849258_1563932063604670464_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68751574_1359923060849258_1563932063604670464_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\67974059_725468641259549_3153716858213892096_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\68452099_535109210650034_728312125667147776_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\68461705_2353676068002203_4348747575105421312_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\68439902_417049765664628_7636492005937250304_n.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
