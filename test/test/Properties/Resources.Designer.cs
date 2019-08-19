@@ -103,9 +103,9 @@ namespace test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _68751574_1359923060849258_1563932063604670464_n {
+        internal static System.Drawing.Bitmap background2 {
             get {
-                object obj = ResourceManager.GetObject("68751574_1359923060849258_1563932063604670464_n", resourceCulture);
+                object obj = ResourceManager.GetObject("background2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _68751574_1359923060849258_1563932063604670464_n1 {
+        internal static System.Drawing.Bitmap background21 {
             get {
-                object obj = ResourceManager.GetObject("68751574_1359923060849258_1563932063604670464_n1", resourceCulture);
+                object obj = ResourceManager.GetObject("background21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap background {
+        internal static System.Drawing.Bitmap pauseMenu {
             get {
-                object obj = ResourceManager.GetObject("background", resourceCulture);
+                object obj = ResourceManager.GetObject("pauseMenu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace test.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bird {
+        internal static System.Drawing.Bitmap youLose {
             get {
-                object obj = ResourceManager.GetObject("bird", resourceCulture);
+                object obj = ResourceManager.GetObject("youLose", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

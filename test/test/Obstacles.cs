@@ -15,7 +15,7 @@ namespace test
         private const int IMG_WIDTH=80;
         private const int IMG_HEIGHT = 40;
         private const int IMG_TOP = 320;
-        private const int DISTANCE = 10;
+        private const int DISTANCE = 15;
         private Rectangle ClientRect;
         private PictureBox obs;
         private Control.ControlCollection formControl;

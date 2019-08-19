@@ -78,6 +78,7 @@ namespace test
                 isDead = true;
                 menuDead.Visible = true;
                 menuDead.Enabled = true;
+                lbScoreDead.Text = lbScore.Text;
             }
             if (obs.isOutofForm())
             {
@@ -96,8 +97,8 @@ namespace test
                 }
                 if (timer1.Interval > 5)
                     timer1.Interval -= 5;
-                else timer1.Interval = 1;
-                
+                else
+                    timer1.Interval = 1;
             }
         }
 
@@ -121,6 +122,7 @@ namespace test
                         isPauseGame_keyUp = false;
                         GbMenu.Enabled = !GbMenu.Enabled;
                         GbMenu.Visible = !GbMenu.Visible;
+
                     }
                 }
                 else
@@ -130,6 +132,7 @@ namespace test
                         isPauseGame_keyDown = true;
                         GbMenu.Enabled = true;
                         GbMenu.Visible = true;
+                        
                     }
                 }
             }
@@ -139,6 +142,7 @@ namespace test
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             Random random = new Random();
             Image img = (random.Next(0, 2) == 0) ? imgStone : imgWooden;
             obs = new Obstacles(this.Controls, img, this.ClientRectangle);
@@ -190,6 +194,18 @@ namespace test
         private void pbRestart_Click(object sender, EventArgs e)
         {
             Restart();
+        }
+
+        private void LbScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbPrevious_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 frm2 = new test.Form2();
+            frm2.Show();
         }
     }
 }

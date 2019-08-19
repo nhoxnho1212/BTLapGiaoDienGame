@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Human.cs" />
     <Compile Include="Obstacles.cs" />
     <Compile Include="Program.cs" />
@@ -59,20 +65,23 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -105,6 +114,102 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\image\68439902_417049765664628_7636492005937250304_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\pauseMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\bgPause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\bgPause2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\youLose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\bgLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnPlayOfficial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnPlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnAchievement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnGameCente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnMoreGames.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnPlayNonOfficial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnSetting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\btnSetting - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\bird.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boyDucking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boyFall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boyFallFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boyFallFinal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\boyFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\stoneFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\unicornBoy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\unicornGirl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\wooden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\wooden2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\woodenFinal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
