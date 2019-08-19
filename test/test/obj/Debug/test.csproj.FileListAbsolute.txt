@@ -40,3 +40,15 @@ D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoD
 D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoDienGame-master\test\test\obj\Debug\test.pdb
 D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoDienGame-master\test\test\obj\Debug\test.Form2.resources
 C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.Form2.resources
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\bin\Debug\test.exe.config
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\bin\Debug\test.exe
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\bin\Debug\test.pdb
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.Form1.resources
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.Form2.resources
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.exe
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.pdb
+C:\Users\FX505\Desktop\New folder (2)\BTLapGiaoDienGame\test\test\obj\Debug\test.Form3.resources

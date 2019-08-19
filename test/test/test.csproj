@@ -58,6 +58,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Human.cs" />
     <Compile Include="Obstacles.cs" />
     <Compile Include="Program.cs" />
@@ -67,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -222,6 +231,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\image\bronze_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\trikeDoc.png" />
+    <None Include="bin\Debug\image\strike.png" />
+    <None Include="bin\Debug\image\playerX.png" />
+    <None Include="bin\Debug\image\playerO.png" />
+    <None Include="bin\Debug\image\pinkBG.png" />
+    <None Include="bin\Debug\image\characterGirl.png" />
+    <None Include="bin\Debug\image\characterBoy.png" />
+    <None Include="bin\Debug\image\btnRS.png" />
+    <None Include="bin\Debug\image\btnNG.png" />
+    <None Include="bin\Debug\image\btnEX.png" />
+    <None Include="bin\Debug\image\bgbg2.png" />
+    <None Include="bin\Debug\image\bgbg.png" />
+    <None Include="bin\Debug\image\bg.png" />
+    <Content Include="Resources\strike.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

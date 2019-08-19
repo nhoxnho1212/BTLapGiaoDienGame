@@ -87,6 +87,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(671, 357);
             this.pictureBox3.Name = "pictureBox3";
@@ -94,6 +95,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.PictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -249,7 +251,7 @@
             this.backRanking.BackColor = System.Drawing.Color.Transparent;
             this.backRanking.Enabled = false;
             this.backRanking.Image = global::test.Properties.Resources.bgPause2;
-            this.backRanking.Location = new System.Drawing.Point(-9, -17);
+            this.backRanking.Location = new System.Drawing.Point(-12, -10);
             this.backRanking.Name = "backRanking";
             this.backRanking.Size = new System.Drawing.Size(1007, 571);
             this.backRanking.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

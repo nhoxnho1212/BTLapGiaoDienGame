@@ -99,5 +99,12 @@ namespace test
         {
             HideRanking();
         }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 frm3 = new test.Form3();
+            frm3.Show();
+        }
     }
 }
