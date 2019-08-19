@@ -33,7 +33,7 @@
             this.lbScore = new System.Windows.Forms.Label();
             this.timerScore = new System.Windows.Forms.Timer(this.components);
             this.menuDead = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbBestScore = new System.Windows.Forms.Label();
             this.lbScoreDead = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,7 +82,7 @@
             this.menuDead.BackColor = System.Drawing.Color.Transparent;
             this.menuDead.BackgroundImage = global::test.Properties.Resources.youLose;
             this.menuDead.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.menuDead.Controls.Add(this.label3);
+            this.menuDead.Controls.Add(this.lbBestScore);
             this.menuDead.Controls.Add(this.lbScoreDead);
             this.menuDead.Controls.Add(this.label2);
             this.menuDead.Controls.Add(this.label1);
@@ -97,16 +97,17 @@
             this.menuDead.Visible = false;
             this.menuDead.Enter += new System.EventHandler(this.GbMenu_Enter);
             // 
-            // label3
+            // lbBestScore
             // 
-            this.label3.Font = new System.Drawing.Font("Debussy", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(290, 313);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 53);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "500";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBestScore.Font = new System.Drawing.Font("Debussy", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBestScore.ForeColor = System.Drawing.Color.Green;
+            this.lbBestScore.Location = new System.Drawing.Point(290, 313);
+            this.lbBestScore.Name = "lbBestScore";
+            this.lbBestScore.Size = new System.Drawing.Size(133, 53);
+            this.lbBestScore.TabIndex = 2;
+            this.lbBestScore.Text = "500";
+            this.lbBestScore.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBestScore.Click += new System.EventHandler(this.LbBestScore_Click);
             // 
             // lbScoreDead
             // 
@@ -229,9 +230,11 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
@@ -260,7 +263,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbScoreDead;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbBestScore;
     }
 }
 

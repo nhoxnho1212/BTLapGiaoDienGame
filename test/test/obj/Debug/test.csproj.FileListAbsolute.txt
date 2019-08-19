@@ -39,3 +39,4 @@ D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoD
 D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoDienGame-master\test\test\obj\Debug\test.exe
 D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoDienGame-master\test\test\obj\Debug\test.pdb
 D:\Data\Learning\Lap Trinh Giao Dien\Bao Cao\BTLapGiaoDienGame-master\BTLapGiaoDienGame-master\test\test\obj\Debug\test.Form2.resources
+C:\Users\Thanh Tung\Desktop\BTLapGiaoDienGame\test\test\obj\Debug\test.Form2.resources

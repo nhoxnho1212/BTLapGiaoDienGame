@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace test
 {
     public partial class Form1 : Form
@@ -19,6 +19,8 @@ namespace test
         Image imgHuman = Image.FromFile(Application.StartupPath + @"\image\boyFinal.png");
         Image imgDuck = Image.FromFile(Application.StartupPath + @"\image\boyDucking.png");
         Image imgBird = Image.FromFile(Application.StartupPath + @"\image\bird.gif");
+        String fileScore_path = Application.StartupPath + @"\Score.txt";
+        List<int> Score;
         bool isBird = false;
         bool isPauseGame_keyDown = false;
         bool isPauseGame_keyUp = false;
@@ -26,8 +28,6 @@ namespace test
         public Form1()
         {
             InitializeComponent();
-            
-
         }
         protected override CreateParams CreateParams
         {
@@ -79,6 +79,26 @@ namespace test
                 menuDead.Visible = true;
                 menuDead.Enabled = true;
                 lbScoreDead.Text = lbScore.Text;
+
+                Score.Add(int.Parse(lbScore.Text));
+                lbBestScore.Text = Score.Max().ToString();
+                Score.Sort();
+                Score.Reverse();
+                
+                using (StreamWriter fr = new StreamWriter(fileScore_path))
+                {
+                    for (int i = 0; i < 10; i++)
+                    {
+                        try
+                        {
+                            fr.WriteLine(Score[i]);
+                        }
+                        catch
+                        {
+                            fr.WriteLine("0");
+                        }
+                    }
+                }
             }
             if (obs.isOutofForm())
             {
@@ -153,6 +173,24 @@ namespace test
             human.SetImgDuck(imgDuck);
             GbMenu.Enabled = false;
             GbMenu.Visible = false;
+            
+            //read file score
+            FileStream fs = new FileStream(fileScore_path, FileMode.Open);
+            StreamReader rd = new StreamReader(fs, Encoding.UTF8);
+            string[] lines = rd.ReadToEnd().Split('\n');
+            fs.Close();
+            Score = new List<int>();
+            foreach (String l in lines)
+            {
+                if (l != "")
+                {
+                    int sc = int.Parse(l.Split('\r')[0]);
+                    Score.Add(sc);
+                }
+            }
+            Score.Sort();
+
+            
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
@@ -202,6 +240,18 @@ namespace test
         }
 
         private void pbPrevious_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 frm2 = new test.Form2();
+            frm2.Show();
+        }
+
+        private void LbBestScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.Hide();
             Form2 frm2 = new test.Form2();

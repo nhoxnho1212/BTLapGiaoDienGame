@@ -211,5 +211,17 @@
   <ItemGroup>
     <None Include="bin\Debug\image\woodenFinal.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\pnRanking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\gold_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\silver_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image\bronze_3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
